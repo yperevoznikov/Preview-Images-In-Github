@@ -6,7 +6,7 @@
 
 $ = unsafeWindow.jQuery;
 
-$('a[href$=".jpg"], a[href$=".gif"], a[href$=".png"]').each(function() {
+$('a[href$=".jpg"], a[href$=".jpeg"], a[href$=".gif"], a[href$=".png"]').each(function() {
 	var $link = $(this);
 	var $img = $('<img />');
 	var $aLink = $('<a />');
