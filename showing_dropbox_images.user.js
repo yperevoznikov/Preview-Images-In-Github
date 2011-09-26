@@ -6,14 +6,14 @@
 
 $ = unsafeWindow.jQuery;
 
-$('a[href$=".jpg"], a[href$=".gif"], a[href$=".png"]').each(function() {
+$('a[href$=".jpg"], a[href$=".jpeg"], a[href$=".gif"], a[href$=".png"]').each(function() {
 	var $link = $(this);
 	var $img = $('<img />');
 	var $aLink = $('<a />');
 
 	$img
-		.css('max-width', '150px')
-		.css('max-height', '150px')
+		.css('max-width', '706px')
+		.css('max-height', '1800px')
 		.attr('src', $link.attr('href'));
 
 	$aLink
